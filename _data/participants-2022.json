@@ -1,0 +1,665 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468954b",
+      "name": "Albania",
+      "code": "AL",
+      "flag": "https://eurovision.tv/image/8d938a00-42af-4b60-835f-415a224a66cd.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468954e",
+      "name": "Australia",
+      "code": "AU",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93895c-9990-4097-af10-1e22a057fb79.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468954f",
+      "name": "Austria",
+      "code": "AT",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93895c-40a0-4991-b0c2-ece12225bf32.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689550",
+      "name": "Azerbaijan",
+      "code": "AZ",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93895b-f5a2-40c3-8e80-ccb3100837fb.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689552",
+      "name": "Belgium",
+      "code": "BE",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93893e-237b-427a-b982-a0c7d1c41fde.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689554",
+      "name": "Bulgaria",
+      "code": "BG",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388c1-04f7-4d41-818d-6d3bacf4253a.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689555",
+      "name": "Croatia",
+      "code": "HR",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93887c-4206-405c-bcf9-2f15ab74d1ac.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689556",
+      "name": "Cyprus",
+      "code": "CY",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388bc-39b2-4c25-ac07-51f9e63967c0.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689557",
+      "name": "Czech Republic",
+      "code": "CZ",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388b8-1024-4996-b07f-f858b38d5a4d.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689558",
+      "name": "Denmark",
+      "code": "DK",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388b2-4037-42a1-80d4-9d707d193b52.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689559",
+      "name": "Estonia",
+      "code": "EE",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388b0-cfa5-47fe-8d1c-ec1a9d773af2.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468955a",
+      "name": "Finland",
+      "code": "FI",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938883-a75b-4720-8911-8e3796f2a7d1.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468955b",
+      "name": "France",
+      "code": "FR",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938882-e456-4901-a2d2-de3b6ccc7cdb.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468955c",
+      "name": "Georgia",
+      "code": "GE",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938882-5102-4e3c-8e83-527766ab211c.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468955d",
+      "name": "Germany",
+      "code": "DE",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388b6-92cc-4f05-a687-e4ebe31966cb.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468955e",
+      "name": "Greece",
+      "code": "GR",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93887d-4341-4b77-9c5c-7ad22f3262b3.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689560",
+      "name": "Iceland",
+      "code": "IS",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9a46c4-def5-4b18-b4af-375320fbac0e.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689561",
+      "name": "Ireland",
+      "code": "IE",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93887b-7df6-40dc-bfa5-aa99d70ac957.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689562",
+      "name": "Israel",
+      "code": "IL",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93886a-4c64-40a7-8e95-ad0732715a38.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689563",
+      "name": "Italy",
+      "code": "IT",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d93886a-27ac-4996-bc17-2f12b47b2a0e.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689564",
+      "name": "Latvia",
+      "code": "LV",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938866-37b5-494b-bf22-b216ab1d8fce.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689565",
+      "name": "Lithuania",
+      "code": "LT",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938867-7e59-4252-979c-a9f152caa024.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689567",
+      "name": "Malta",
+      "code": "MT",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387f2-8d60-494e-bd92-0d201e17c376.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689568",
+      "name": "Moldova",
+      "code": "MD",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938863-f530-484c-9b17-ff4a299bac5d.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468956c",
+      "name": "North Macedonia",
+      "code": "MK",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938863-a50c-4ded-8acf-3205851eae1f.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468956d",
+      "name": "Norway",
+      "code": "NO",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387de-68de-403d-b3d0-1bdcf1c361e6.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468956e",
+      "name": "Poland",
+      "code": "PL",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387d4-cc6f-437f-a646-cb3bde395dc2.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468956f",
+      "name": "Portugal",
+      "code": "PT",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387d4-255c-4052-b159-b62ef4ea2394.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689570",
+      "name": "Romania",
+      "code": "RO",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9a45ac-baef-4080-a24a-1afa3361e0ec.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689571",
+      "name": "Russia",
+      "code": "RU",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387d3-056c-418a-a660-c192add9a5b9.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689572",
+      "name": "San Marino",
+      "code": "SM",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387d1-bb97-4d83-b573-ba00a2eae728.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689573",
+      "name": "Serbia",
+      "code": "RS",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387d0-c64f-4ab5-bd48-6fb25e5b343d.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689576",
+      "name": "Slovenia",
+      "code": "SI",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938784-099c-474a-99fb-51ec49400899.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689577",
+      "name": "Spain",
+      "code": "ES",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388b1-0d59-43b4-9777-ec7b545077f3.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689578",
+      "name": "Sweden",
+      "code": "SE",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938783-ccc9-42c9-9f74-89c607bb7dfe.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d24689579",
+      "name": "Switzerland",
+      "code": "CH",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9388bd-8cdd-47ae-9c14-eba17dcc8d6f.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468957a",
+      "name": "The Netherlands",
+      "code": "NL",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9387e9-8829-478f-b985-db9da30f4277.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468957c",
+      "name": "Ukraine",
+      "code": "UA",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d9386fe-147d-4043-989b-6d8eed8c322e.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  },
+  {
+    "image": "https://res.cloudinary.com/dsliohzpe/image/upload/v1612177797/ESC-2021/placeholder_jlghg4.jpg",
+    "final": false,
+    "country": {
+      "_id": "5eadfb0a6448e14d2468957d",
+      "name": "United Kingdom",
+      "code": "GB",
+      "flag": "https://static.eurovision.tv/hb-cgi/images/8d938882-af21-4fa6-b0d6-35a5fa6a0939.svg"
+    },
+    "artist": "TBA",
+    "song": "TBA",
+    "semifinal": "Second Semifinal",
+    "bio": [],
+    "lyrics": "TBA",
+    "music": "TBA",
+    "video": ""
+  }
+]
