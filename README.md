@@ -1,3 +1,3 @@
-# Eurovision-2021-api
+# Eurovision-2022-api
 
-API for the eurovision 2021 app with all the participants for esc 2021.
+API for the eurovision 2022 app with all the participants for esc 2022.
