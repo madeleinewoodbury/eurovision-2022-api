@@ -1,9 +1,9 @@
-const express = require('express')
-const router = express.Router()
-const auth = require('../middleware/auth')
-const { check, validationResult } = require('express-validator')
-const Participant = require('../models/Participant')
-const User = require('../models/User')
+const express = require('express');
+const router = express.Router();
+const auth = require('../middleware/auth');
+const { check, validationResult } = require('express-validator');
+const Participant = require('../models/Participant');
+const User = require('../models/User');
 
 // @route POST/api/participants
 // @desc Create a participant
@@ -18,17 +18,17 @@ router.post(
     check('semifinal', 'Semifinal is required').not().isEmpty(),
   ],
   async (req, res) => {
-    const errors = validationResult(req)
+    const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() })
+      return res.status(400).json({ errors: errors.array() });
     }
     try {
       // Check if user is authorized
-      const user = await User.findById(req.user.id).select('-password')
+      const user = await User.findById(req.user.id).select('-password');
       if (user.role !== 'admin') {
         return res
           .status(400)
-          .json({ errors: [{ msg: 'User not authorized' }] })
+          .json({ errors: [{ msg: 'User not authorized' }] });
       }
 
       // Create new instance of participant
@@ -46,55 +46,55 @@ router.post(
         final: req.body.final && req.body.final,
         video: req.body.video && req.body.video,
         points: req.body.points && req.body.points,
-      })
+      });
 
-      const participant = await newParticipant.save()
-      res.json(participant)
+      const participant = await newParticipant.save();
+      res.json(participant);
     } catch (err) {
-      console.error(err.message)
-      res.status(500).send('Server Error')
+      console.error(err.message);
+      res.status(500).send('Server Error');
     }
   }
-)
+);
 
 // @route   GET /api/participants
 // @desc    Get all participants
 // @acess   Public
 router.get('/', async (req, res) => {
   try {
-    const participants = await Participant.find().sort({ country: 1 })
+    const participants = await Participant.find().sort({ country: 1 });
 
     if (participants.length < 1) {
-      return res.status(400).json({ msg: 'No participants found' })
+      return res.status(400).json({ msg: 'No participants found' });
     }
 
-    res.json(participants)
+    res.json(participants);
   } catch (err) {
-    console.error(err.message)
-    res.status(500).send('Server Error')
+    console.error(err.message);
+    res.status(500).send('Server Error');
   }
-})
+});
 
 // @route   GET /api/participants/:id
 // @desc    Get single participants
 // @acess   Public
 router.get('/:id', async (req, res) => {
   try {
-    const participant = await Participant.findById(req.params.id)
+    const participant = await Participant.findById(req.params.id);
 
     if (!participant) {
-      return res.status(400).json({ msg: 'Participants found' })
+      return res.status(400).json({ msg: 'Participants found' });
     }
 
-    res.json(participant)
+    res.json(participant);
   } catch (err) {
     if (err.kind == 'ObjectId') {
-      return res.status(400).json({ msg: 'Participant not found' })
+      return res.status(400).json({ msg: 'Participant not found' });
     }
-    console.error(err.message)
-    res.status(500).send('Server Error')
+    console.error(err.message);
+    res.status(500).send('Server Error');
   }
-})
+});
 
 // @route   PUT /api/participants/:id
 // @desc    Update a participant
@@ -111,9 +111,9 @@ router.put(
     ],
   ],
   async (req, res) => {
-    const errors = validationResult(req)
+    const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() })
+      return res.status(400).json({ errors: errors.array() });
     }
 
     const {
@@ -128,32 +128,34 @@ router.put(
       final,
       video,
       points,
-    } = req.body
+    } = req.body;
 
-    if (country) participantFields.country = country
-    if (artist) participantFields.artist = artist
-    if (song) participantFields.song = song
-    if (image) participantFields.image = image
-    if (bio) participantFields.bio = bio
-    if (lyrics) participantFields.lyrics = lyrics
-    if (music) participantFields.music = music
-    if (semifinal) participantFields.semifinal = semifinal
-    if (final) participantFields.final = final
-    if (video) participantFields.video = video
-    if (points) participantFields.points = points
+    const participantFields = {};
+
+    if (country) participantFields.country = country;
+    if (artist) participantFields.artist = artist;
+    if (song) participantFields.song = song;
+    if (image) participantFields.image = image;
+    if (bio) participantFields.bio = bio;
+    if (lyrics) participantFields.lyrics = lyrics;
+    if (music) participantFields.music = music;
+    if (semifinal) participantFields.semifinal = semifinal;
+    if (final) participantFields.final = final;
+    if (video) participantFields.video = video;
+    if (points) participantFields.points = points;
 
     try {
-      let participant = await Participant.findById(req.params.id)
+      let participant = await Participant.findById(req.params.id);
       if (!participant) {
-        res.status(400).json({ msg: 'Participant not found' })
+        res.status(400).json({ msg: 'Participant not found' });
       }
 
       // Check if user is authorized
-      const user = await User.findById(req.user.id).select('-password')
+      const user = await User.findById(req.user.id).select('-password');
       if (user.role !== 'admin') {
         return res
           .status(400)
-          .json({ errors: [{ msg: 'User not authorized' }] })
+          .json({ errors: [{ msg: 'User not authorized' }] });
       }
 
       // Update the new participant
@@ -161,41 +163,41 @@ router.put(
         { _id: req.params.id },
         { $set: participantFields },
         { new: true }
-      )
-      return res.json(participant)
+      );
+      return res.json(participant);
     } catch (err) {
       if (err.kind == 'ObjectId') {
-        return res.status(400).json({ msg: 'Participant not found' })
+        return res.status(400).json({ msg: 'Participant not found' });
       }
-      console.error(err.message)
-      res.status(500).send('Server Error')
+      console.error(err.message);
+      res.status(500).send('Server Error');
     }
   }
-)
+);
 
 // @route   DELETE /api/participants/:id
 // @desc    Delete a participant
 // @acess   Private
 router.delete('/:id', auth, async (req, res) => {
   try {
-    const participant = await Participant.findById(req.params.id)
+    const participant = await Participant.findById(req.params.id);
     if (!participant) {
-      res.status(400).json({ msg: 'Participant not found' })
+      res.status(400).json({ msg: 'Participant not found' });
     }
     // Check if user is authorized
-    const user = await User.findById(req.user.id).select('-password')
+    const user = await User.findById(req.user.id).select('-password');
     if (user.role !== 'admin') {
-      return res.status(400).json({ errors: [{ msg: 'User not authorized' }] })
+      return res.status(400).json({ errors: [{ msg: 'User not authorized' }] });
     }
 
-    await participant.remove()
-    res.json({ msg: 'Participant deleted' })
+    await participant.remove();
+    res.json({ msg: 'Participant deleted' });
   } catch (err) {
     if (err.kind == 'ObjectId') {
-      return res.status(400).json({ msg: 'Participant not found' })
+      return res.status(400).json({ msg: 'Participant not found' });
     }
-    res.status(500).send('Server Error')
+    res.status(500).send('Server Error');
   }
-})
+});
 
-module.exports = router
+module.exports = router;
