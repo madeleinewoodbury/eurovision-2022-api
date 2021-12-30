@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 const participants = JSON.parse(
-  fs.readFileSync(`${__dirname}/_data/participants-2022.json`, 'utf-8')
+  fs.readFileSync(`${__dirname}/_data/participants-2021.json`, 'utf-8')
 );
 
 // Import to database

@@ -190,6 +190,16 @@ router.delete('/:id', auth, async (req, res) => {
       return res.status(400).json({ errors: [{ msg: 'User not authorized' }] });
     }
 
+    const users = await User.find();
+
+    // Remove votes for participant to be deleted
+    for (let user of users) {
+      user.votes = user.votes.filter(
+        (vote) => vote.participant.id != req.params.id
+      );
+      await user.save();
+    }
+
     await participant.remove();
     res.json({ msg: 'Participant deleted' });
   } catch (err) {
