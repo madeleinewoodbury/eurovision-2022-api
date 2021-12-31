@@ -19,7 +19,7 @@ connectDB();
 const app = express();
 
 app.use(function (req, res, next) {
-  res.header('Access-Control-Allow-Origin', 'https://esc-2022.netlify.app');
+  res.header('Access-Control-Allow-Origin', '*');
   res.header(
     'Access-Control-Allow-Methods',
     'GET, POST, PATCH, PUT, DELETE, OPTIONS'
@@ -32,7 +32,11 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ['https://esc-2022.netlify.app', 'http://localhost:3000'],
+  })
+);
 
 // Body parsers
 app.use(express.json());
