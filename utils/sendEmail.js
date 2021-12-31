@@ -1,13 +1,16 @@
 const nodemailer = require('nodemailer');
-const nodemailerSendgrid = require('nodemailer-sendgrid');
+// const nodemailerSendgrid = require('nodemailer-sendgrid');
 
 const sendEmail = async (options) => {
-  const transport = nodemailer.createTransport(
-    nodemailerSendgrid({
-      apiKey: process.env.SENDGRID_API_KEY,
-    })
-  );
-
+  const transport = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
+    auth: {
+      user: 'apikey',
+      pass: process.env.SMTP_PASSWORD,
+    },
+  });
+  console.log('attempting email send');
   await transport.sendMail({
     from: process.env.FROM_EMAIL,
     to: options.email,
