@@ -113,7 +113,9 @@ router.post('/forgotpassword', async (req, res) => {
         html: msg,
       });
 
-      res.status(200).json({ success: true, data: 'Email sent' });
+      res
+        .status(200)
+        .json({ success: true, data: `Email sent to ${user.email}` });
     } catch (err) {
       console.log(err);
       user.getResetPasswordToken = undefined;
