@@ -101,7 +101,7 @@ router.post('/forgotpassword', async (req, res) => {
     const resetURL = `https://esc-2022.netlify.app/resetpassword/${resetToken}`;
 
     const msg = `
-    <p>Hello ${user.name}</p>
+    <p>Hello ${user.name.split(' ')[0]}</p>
     <p>You are receiving this email because you (or someone else) has requested the reset of a password. Click the link below to reset your password.</p>
     <a href='${resetURL}'>Reset password</a>
     `;
