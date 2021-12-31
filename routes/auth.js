@@ -109,7 +109,7 @@ router.post('/forgotpassword', async (req, res) => {
     try {
       await sendEmail({
         email: user.email,
-        subject: 'Password reset token',
+        subject: 'Reset Password',
         html: msg,
       });
 
