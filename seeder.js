@@ -1,6 +1,5 @@
 const fs = require('fs');
 const mongoose = require('mongoose');
-const colors = require('colors');
 const dotenv = require('dotenv');
 
 // Load env variables
@@ -25,7 +24,7 @@ const participants = JSON.parse(
 const importData = async () => {
   try {
     await Participant.create(participants);
-    console.log('Data Imported...'.green.inverse);
+    console.log('Data Imported...');
     process.exit();
   } catch (err) {
     console.log(err);
@@ -36,7 +35,7 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Participant.deleteMany();
-    console.log('Data Destroyed...'.red.inverse);
+    console.log('Data Destroyed...');
     process.exit();
   } catch (err) {
     console.log(err);
