@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const Schema = mongoose.Schema
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 const ParticipantSchema = new Schema({
   country: {
@@ -50,6 +50,9 @@ const ParticipantSchema = new Schema({
   video: {
     type: String,
   },
+  musicVideo: {
+    type: String,
+  },
   points: {
     type: Number,
     default: 0,
@@ -65,6 +68,6 @@ const ParticipantSchema = new Schema({
       },
     },
   ],
-})
+});
 
-module.exports = Participant = mongoose.model('participant', ParticipantSchema)
+module.exports = Participant = mongoose.model('participant', ParticipantSchema);

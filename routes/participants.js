@@ -45,6 +45,7 @@ router.post(
         semifinal: req.body.semifinal,
         final: req.body.final && req.body.final,
         video: req.body.video && req.body.video,
+        musicVideo: req.body.musicVideo && req.body.musicVideo,
         points: req.body.points && req.body.points,
       });
 
@@ -127,6 +128,7 @@ router.put(
       semifinal,
       final,
       video,
+      musicVideo,
       points,
     } = req.body;
 
@@ -142,6 +144,7 @@ router.put(
     if (semifinal) participantFields.semifinal = semifinal;
     if (final) participantFields.final = final;
     if (video) participantFields.video = video;
+    if (musicVideo) participantFields.musicVideo = musicVideo;
     if (points) participantFields.points = points;
 
     try {
